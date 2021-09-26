@@ -7,11 +7,11 @@ spring:
 
 
 #ADDED TO BOOTSTRAP FILE
-eureka:
-  client:
-    register-with-eureka: true
-    fetch-registry: true
-    service-url:
-      defaultZone: http://192.168.1.188:8761/eureka/
-  instance:
-    prefer-ip-address: true
+#eureka:
+#  client:
+#    register-with-eureka: true
+#    fetch-registry: true
+#    service-url:
+#      defaultZone: http://192.168.1.188:8761/eureka/
+#  instance:
+#    prefer-ip-address: true

@@ -15,7 +15,7 @@ import lombok.extern.slf4j.Slf4j;
 
 
 @RestController
-@RequestMapping("/departments")
+@RequestMapping("/test")
 @Slf4j
 public class DepartmentController {
 	
@@ -35,4 +35,13 @@ public class DepartmentController {
 		return departmentService.findDepartmentById(departmentId);		
 	}
 	
+	@GetMapping("/home")
+	public String home() {
+		log.info("Inside home method of DepartmentController");
+
+		
+		return "<b>Hello World</b>";
+	}
+
+
 }
